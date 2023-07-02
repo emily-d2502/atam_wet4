@@ -1,16 +1,10 @@
-#include <stdio.h>
 
-int main(int argc, char* argv[])
-{
-    int i = argv[1];
-    switch (i) {
-    case 1:
-        /* code */
-        break;
+int foo(int a, int b) {
+    return a + b;
+}
 
-    default:
-        break;
-    }
-
+int main() {
+    foo(10,4);
+    foo(0,0);
     return 0;
 }
